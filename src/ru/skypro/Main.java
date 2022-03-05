@@ -14,6 +14,12 @@ public class Main {
         System.out.println(sKing.getAuthorName());
         System.out.println(sKing.getAuthorLastName());
         System.out.println(bookFirst.getBookName());
-        System.out.println(bookFirst.getBookYear());
+
+        System.out.println(bookFirst.equals(bookSecond));
+        System.out.println(bookFirst.toString());
+        System.out.println(bookFirst.hashCode());
+        System.out.println(sKing.equals(sKing));
+        System.out.println(sKing.toString());
+        System.out.println(sKing.hashCode());
     }
 }
